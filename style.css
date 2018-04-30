@@ -11,6 +11,18 @@
  Text Domain:  storefront-child
 */
 
+
+/* ------- HEADER -------- */
+
+/* Remove secondary menu from homepage */
 .page-id-24 #menu-secondair {
   display: none;
+}
+
+.col-full {
+	width: 100%;
+}
+
+.site-branding {
+	margin: 0 auto;
 }
