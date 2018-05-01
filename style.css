@@ -10,19 +10,47 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  storefront-child
 */
-
-
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700");
 /* ------- HEADER -------- */
-
 /* Remove secondary menu from homepage */
-.page-id-24 #menu-secondair {
-  display: none;
-}
+#masthead {
+  background-color: #fef4ea; }
 
-.col-full {
-	width: 100%;
-}
+.page-id-24 .cart-contents {
+  display: none; }
 
-.site-branding {
-	margin: 0 auto;
-}
+#page #masthead #menu-secondair {
+  display: none; }
+#page #masthead .col-full {
+  width: 100%; }
+#page #masthead .storefront-primary-navigation {
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif; }
+  #page #masthead .storefront-primary-navigation .menu-item {
+    width: 25%; }
+  #page #masthead .storefront-primary-navigation .main-navigation {
+    width: 100%; }
+  #page #masthead .storefront-primary-navigation a {
+    font-weight: 600; }
+#page #masthead #menu-hoofd {
+  margin-top: -40px; }
+  #page #masthead #menu-hoofd li:nth-child(3), #page #masthead #menu-hoofd li:nth-child(4) {
+    text-align: right; }
+#page #masthead .site-branding {
+  margin: 0 auto;
+  float: none;
+  background: url("/wp-content/themes/storefront-child/assets/images/hop-in-logo.png") no-repeat; }
+#page #masthead img.custom-logo {
+  width: 300px;
+  z-index: -1; }
+#page #masthead .site-search {
+  position: absolute;
+  top: 0;
+  right: 2%; }
+  #page #masthead .site-search .search-field {
+    width: auto;
+    background-color: #fef4ea;
+    box-shadow: none;
+    border-bottom: 1px solid grey; }
+
+/*# sourceMappingURL=style.css.map */

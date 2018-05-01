@@ -1,0 +1,88 @@
+/*
+ Theme Name:   Storefront Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Storefront Child
+ Author:       Olivier Bleker
+ Template:     storefront
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  storefront-child
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
+/* ------- HEADER -------- */
+/* Remove secondary menu from homepage */
+#masthead {
+	background-color: #fef4ea;
+}
+
+.page-id-24{
+	.cart-contents {
+		display: none;
+	}
+}
+
+#page #masthead{
+
+	#menu-secondair {
+	  display: none;
+	}
+
+	.col-full {
+		width: 100%;
+	}
+
+	.storefront-primary-navigation {
+		text-transform: uppercase;
+		font-family: 'Source Sans Pro', sans-serif;
+		
+		.menu-item {
+			width: 25%;
+		}
+
+		.main-navigation {
+			width: 100%;
+		}
+
+		a {
+			font-weight: 600;
+		}
+
+	}
+
+	#menu-hoofd {
+		margin-top: -40px;
+
+		li:nth-child(3), li:nth-child(4){
+			text-align: right;
+		}
+	} 
+
+	.site-branding {
+		margin: 0 auto;
+		float: none;
+		background: url("/wp-content/themes/storefront-child/assets/images/hop-in-logo.png") no-repeat;
+	}
+
+	img.custom-logo {
+		width: 300px;
+		z-index: -1;
+	}
+
+	.site-search {
+		position: absolute;
+		top: 0;
+		right: 2%;
+
+		.search-field {
+			width: auto;
+			background-color: #fef4ea;
+			box-shadow: none;
+		    border-bottom: 1px solid grey;
+		}
+	}
+
+
+}
