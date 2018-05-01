@@ -12,10 +12,11 @@
 */
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700");
 /* ------- HEADER -------- */
-/* Remove secondary menu from homepage */
+/* Change background color header */
 #masthead {
   background-color: #fef4ea; }
 
+/* Remove secondary menu from homepage */
 .page-id-24 .cart-contents {
   display: none; }
 
